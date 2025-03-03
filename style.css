@@ -271,6 +271,8 @@ td[rowspan] {
 .nouveau-tableau-4 td[rowspan="2"] {
 	background: linear-gradient(to bottom, #fff 50%, #fff 50%);
 	position: relative;
+	border-right: 2px solid #03989e;
+
 }
 
 .nouveau-tableau-4 td[rowspan="2"] img {
