@@ -271,7 +271,7 @@ td[rowspan] {
 .nouveau-tableau-4 td[rowspan="2"] {
 	background: linear-gradient(to bottom, #fff 50%, #fff 50%);
 	position: relative;
-	border-right: 2px solid #03989e;
+	border-right: 1px solid #03989e;
 
 }
 
@@ -348,7 +348,7 @@ tr.special-row {
 }
 
 .separator {
-    width: 65%;
+    width: 30%;
     height: 2px; /* Épaisseur de la ligne */
     background-color: #03989e; /* Couleur de la ligne */
     margin: 10px 0; /* Espace au-dessus et en dessous */
