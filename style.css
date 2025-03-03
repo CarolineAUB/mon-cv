@@ -1,0 +1,400 @@
+/* Style global pour le corps du document - TEXTE */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Open Sans", serif;
+}
+
+h1 {
+	text-align: right;
+	color: #fff;
+}
+
+h2 {
+	text-align: right;
+}
+
+h3 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #03989e;
+	font-weight: 600;
+	margin-top: 0;
+	padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+h6 {
+	font-size: 0.8em;
+	font-weight: 400;
+	vertical-align: bottom;
+	margin-top: 0;
+}
+
+body {
+	font-family: "Open Sans", serif;
+	padding-right: 10%;
+	padding-left: 10%;
+	background-color: #f7f1f1;
+}
+
+ul.no-style {
+	list-style-type: none;
+	padding-left: 3px;
+}
+
+/* FIN Style global pour le corps du document - TEXTE */
+
+
+/* Style global pour le corps du document - TABLEAUX */
+/* Style de base pour les cellules */
+td {
+	padding: 3px;
+	vertical-align: middle;
+	/* Centrer le contenu verticalement */
+}
+
+td[colspan],
+td[rowspan] {
+	padding: 3px;
+	/* Assure que même les cellules fusionnées ont un padding */
+}
+
+td[rowspan="2"] {
+	background: linear-gradient(to bottom, #44adb2 50%, #f0f0f0 50%);
+	position: relative;
+}
+
+td[rowspan="2"] img {
+	position: relative;
+	z-index: 2;
+	display: block;
+	margin: auto;
+}
+
+/* Couleur de fond de la deuxième ligne */
+tr:nth-child(2) {
+	background-color: #f0f0f0;
+}
+
+tr {
+	height: 50%;
+	/* Hauteur fixe pour chaque ligne */
+}
+
+tr.special-row {
+	background-color: #f0f0f0;
+	/* Exemple : fond gris clair */
+	font-weight: bold;
+	/* Mettre le texte en gras */
+}
+
+/*style tableau-last*/
+
+td {
+	padding: 3px;
+	vertical-align: middle;
+	/* Centrer le contenu verticalement */
+}
+
+td[colspan],
+td[rowspan] {
+	padding: 3px;
+	/* Assure que même les cellules fusionnées ont un padding */
+}
+
+td[rowspan="2"] {
+	position: relative;
+}
+
+td[rowspan="2"] img {
+	position: relative;
+	z-index: 2;
+	display: block;
+	margin: auto;
+}
+
+
+tr {
+	height: 50%;
+	/* Hauteur fixe pour chaque ligne */
+}
+
+tr.special-row {
+	background-color: #f0f0f0;
+	/* Exemple : fond gris clair */
+	font-weight: bold;
+	/* Mettre le texte en gras */
+}
+
+/* Style du premier tableau (tableau-1) */
+table {
+	border-collapse: collapse;
+	/* Éviter les doubles bordures */
+	background-color: #44adb2;
+	border: 0px solid black;
+	/* Bordure autour du tableau */
+	width: 100%;
+	/* Largeur du tableau */
+	height: 300px;
+	/* Hauteur fixe du tableau */
+}
+
+.container {
+	width: 100%;
+	overflow-x: auto;
+	/* Permet un défilement horizontal si nécessaire */
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+
+.col-50 {
+	width: 50%;
+	/* La première colonne prend 50% de la largeur */
+}
+
+td:not(.col-50) {
+	width: 25%;
+	/* Les autres colonnes prennent chacune 25% */
+}
+
+/* Nouveau style pour le tableau-2 (nouveau-tableau) */
+.nouveau-tableau {
+	width: 100%;
+	border-collapse: collapse;
+	/* Enlever l'espace entre les cellules */
+	background-color: #fff;
+	padding: 0px;
+	/* Ajuster le padding pour mieux contrôler la taille des cellules */
+	border: 0px solid #ddd;
+	/* Bordure légère */
+	height: fit-content !important;
+	margin-top: 20px;
+
+}
+
+.nouveau-tableau td {
+	width: auto;
+	height: fit-content !important;
+	padding: 2px 5px !important;
+	/* Réduction du padding des cellules */
+	line-height: 1.2 !important;
+	/* Diminue l'espacement entre les lignes */
+}
+
+
+.nouveau-tableau tr {
+	height: fit-content !important;
+	/* Laisser les lignes s'ajuster automatiquement en fonction du contenu */
+
+}
+
+.nouveau-tableau tr:nth-child(odd) {
+	background-color: transparent;
+	/* Retirer la couleur de fond des lignes impaires */
+}
+
+
+/* Retirer la couleur de fond des lignes paires également si tu veux un fond uniforme partout */
+.nouveau-tableau tr:nth-child(even) {
+	background-color: transparent;
+	/* Assurer qu'aucune couleur de fond ne s'applique aux lignes paires */
+}
+
+
+/* Nouveau style pour le tableau-4 (nouveau-tableau) */
+.nouveau-tableau-4 {
+	width: 100%;
+	border-collapse: collapse;
+	/* Enlever l'espace entre les cellules */
+	background-color: #fff;
+	padding: 0px;
+	/* Ajuster le padding pour mieux contrôler la taille des cellules */
+	border: 0px solid #fff;
+	/* Bordure légère */
+	height: fit-content !important;
+	margin-top: 0;
+
+}
+
+.nouveau-tableau-4 td {
+	width: auto;
+	height: fit-content !important;
+	padding: 2px 5px !important;
+	/* Réduction du padding des cellules */
+	line-height: 1.2 !important;
+	/* Diminue l'espacement entre les lignes */
+}
+
+
+.nouveau-tableau-4 tr {
+	height: fit-content !important;
+	/* Laisser les lignes s'ajuster automatiquement en fonction du contenu */
+
+}
+
+.nouveau-tableau-4 tr:nth-child(odd) {
+	background-color: transparent;
+	/* Retirer la couleur de fond des lignes impaires */
+}
+
+
+/* Retirer la couleur de fond des lignes paires également si tu veux un fond uniforme partout */
+.nouveau-tableau-4 tr:nth-child(even) {
+	background-color: transparent;
+	/* Assurer qu'aucune couleur de fond ne s'applique aux lignes paires */
+}
+
+.nouveau-tableau-4 td[colspan],
+td[rowspan] {
+	padding: 3px;
+	/* Assure que même les cellules fusionnées ont un padding */
+}
+
+.nouveau-tableau-4 td[rowspan="2"] {
+	background: linear-gradient(to bottom, #fff 50%, #fff 50%);
+	position: relative;
+}
+
+.nouveau-tableau-4 td[rowspan="2"] img {
+	position: relative;
+	z-index: 2;
+	display: block;
+	margin: auto;
+}
+
+.nouveau-tableau-4:nth-child(2) {
+	border-right: 2px solid black;
+}
+
+.nouveau-tableau-4:nth-child(2),
+td[rowspan] {
+	border-right: 2px solid #03989e;
+}
+
+.nouveau-tableau-4:first-child {
+	border-right: none;
+}
+
+/* Couleur de fond de la deuxième ligne */
+tr:nth-child(2) {
+	background-color: #f0f0f0;
+}
+
+tr {
+	height: 50%;
+	/* Hauteur fixe pour chaque ligne */
+}
+
+tr.special-row {
+	background-color: #f0f0f0;
+	/* Exemple : fond gris clair */
+	font-weight: bold;
+	/* Mettre le texte en gras */
+}
+
+
+/* Nouveau style pour le tableau-2 (nouveau-tableau) */
+
+.nouveau-tableau-2 {
+	width: 100%;
+	border-collapse: separate;
+	/* Enlever l'espace entre les cellules */
+	background-color: #fff;
+	padding: 3px;
+	/* Ajuster le padding pour mieux contrôler la taille des cellules */
+	border: 0px solid #ddd;
+	/* Bordure légère */
+	height: auto;
+}
+
+.nouveau-tableau-2 td {
+	width: auto;
+	height: fit-content;
+	background-color: #b8ebea;
+	border: 15px solid;
+	/* Taille et style de la bordure */
+	border-color: #fff;
+	/* Couleur de la bordure */
+	border-radius: 50px;
+	/* Arrondir les coins de 10px */
+
+
+}
+
+.nouveau-tableau-2 tr {
+	height: fit-content !important;
+	/* Laisser les lignes s'ajuster automatiquement en fonction du contenu */
+
+}
+
+.separator {
+    width: 65%;
+    height: 2px; /* Épaisseur de la ligne */
+    background-color: #03989e; /* Couleur de la ligne */
+    margin: 10px 0; /* Espace au-dessus et en dessous */
+    margin: 10px auto; /* Centre la ligne horizontalement */
+
+}
+
+/* Style spécifique pour le tableau avec la classe tableau-special */
+.tableau-special {
+    width: 100%;
+    border-collapse: collapse;
+    height: fit-content;
+}
+
+.tableau-special td {
+    text-align: center;
+    padding: 10px;
+}
+
+.tableau-special .fusion {
+    background-color: #b8ebea;
+    text-align: center;
+    vertical-align: middle;
+    width: 33%;
+    height: 100%;
+}
+
+.tableau-special td:not(.fusion) {
+    background-color: #b8ebea;
+}
+
+.tableau-special td[rowspan="2"] {
+    background: linear-gradient(to bottom, #b8ebea 50%, #b8ebea 50%);
+    position: relative;
+}
+
+.tableau-special:nth-child(2), td[rowspan] {
+    border-right: none;
+}
+
+
+.centrer-contenu {
+    display: flex;
+    align-items: center; /* Aligne verticalement */
+    justify-content: center; /* Aligne horizontalement (si nécessaire) */
+    height: 100%; /* Assurez-vous que la cellule a une hauteur définie pour que l'alignement fonctionne */
+}
+
+.centrer-contenu img {
+    margin-right: 10px; /* Espacement entre l'image et le texte */
+}
