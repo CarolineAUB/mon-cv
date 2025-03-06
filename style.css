@@ -427,3 +427,13 @@ tr.special-row {
 	transform: scale(1.2); /* Agrandir légèrement le bouton */
 
   }
+
+/* Bouton flottant sur mobile */
+@media (max-width: 600px) {
+    .floating-button {
+        min-width: 12rem;  /* Augmente la largeur minimale */
+        min-height: 4rem;  /* Augmente la hauteur minimale */
+        font-size: 1.2rem; /* Agrandit la taille du texte */
+        padding: .6rem 2rem;  /* Augmente le padding pour plus de visibilité */
+    }
+}
