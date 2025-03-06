@@ -459,3 +459,17 @@ tr.special-row {
         margin-bottom: 10px; /* Ajoute un espace entre les cellules */
     }
 }
+
+@media (max-width: 768px) {
+    .tableau-special td {
+        font-size: 12px; /* Réduit la taille du texte si nécessaire */
+    }
+
+    .tableau-special img {
+        width: 30px; /* Réduit la taille des images sur mobile pour plus d'espace */
+    }
+
+	.tableau-special td img {
+        margin-right: 5px; /* Réduit l'espace entre l'image et le texte */
+    }
+}
