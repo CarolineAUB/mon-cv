@@ -1,1 +1,260 @@
-http
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8">
+      <title>CV- Caroline AUBRON</title>
+      <link href="style.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="lang-switch">
+         <a href="https://carolineaub.github.io/mon-cv/en.html">
+             🌍 FR/EN
+         </a>
+     </div>
+      <div class="footer">
+
+      <a href="tel:+33689266805" style="text-decoration: none;"><button class="floating-button">Contactez-moi</button></a>
+      </div>
+      <div style="background-color: #44adb2; padding-bottom: 0px;" class="container">
+         <table class="tableau-1">
+            <tr>
+               <td style="height: 50%;">
+                  <ul class="no-style" style="padding-left: 5px;">
+                     <li><a href="mailto:caroline.aubron@gmail.com">caroline.aubron@gmail.com</a></li>
+                     <li>06 89 26 68 05</li>
+                     <li>78360, Montesson</li>
+                     <li><img src="icons8-linkedin.svg"/ width="20px" style="vertical-align: middle;"><a href="https://www.linkedin.com/in/caroline-aubron-2b1b1b1b1/">caroline-aubron</a></li>
+                  </ul>
+               </td>
+               <td style="height: 50%;">
+                  <h1>Caroline AUBRON <br/> <span style="font-size: 50%;">Responsable marketing digital</span></h1>
+               </td>
+               <td rowspan="2" style="height: 50%;">
+                  <div class="split-cell">
+                     <div class="top-half"></div>
+                     <div class="bottom-half">
+                        <img src="caroline-aubron-2.png" alt="portrait-caroline-aubron" width="250">
+                     </div>
+                  </div>
+               </td>
+               <!-- Fusion de la troisième colonne -->
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <p style="padding-left: 5px;"><b>🎯 OBJECTIF :</b> forte de plus de 8 ans d'expérience en marketing, je souhaite mettre mes compétences au service d’une organisation engagée. Enthousiaste, impliquée et polyvalente, j’ai développé une expertise en CRM, acquisition, automation et analyse de données afin d’optimiser la performance des campagnes et renforcer l’engagement des communautés. Sensible aux enjeux sociaux, je cherche à contribuer à des projets à impact positif en mobilisant le marketing comme levier de transformation et de visibilité.</p>
+               </td>
+               <!-- Fusion des deux cellules de la ligne 2 -->
+            </tr>
+         </table>
+      </div>
+      <!-- COMPETENCES -->
+      <div class="competences-container" style="background-color: #fff; padding-top: 20px;">
+         <h3 style="padding-left: 5px; padding-top: 0px;">compétences</h3>
+         <div style="background-color: #fff;">
+            <table class="nouveau-tableau-2">
+               <tr>
+                  <td style="width: 33%;">
+                     <h3 style="text-align: center;">Stratégie <br>digitale</h3>
+                     <ul style="font-size: 0.9em;">
+                        <li><strong>Acquisition :</strong> campagnes multi-leviers (référencement SEO/SEA, social ads, affiliation, email prospection, inboud marketing, display)</li>
+                        <li><strong>Activation :</strong> landing pages, UX/UI, AB testing, nurturing </li>
+                        <li><strong>Rétention :</strong> customer journey, email marketing, contenu personnalisé</li>
+                        <li><strong>Recommandation :</strong> parrainage</li>
+                        <li><strong>Revenu :</strong> promotions, cross/up sell</li>
+                     </ul>
+                  </td>
+                  <td style="width: 33%;">
+                     <h3 style="text-align: center;">Outils <br>& Langages</h3>
+                     <ul style="font-size: 0.9em;">
+                        <li><strong>Analytics :</strong> Google Analytics, Looker, Data studio</li>
+                        <li><strong>CMS :</strong> Wordpress, Sitecore</li>
+                        <li><strong>Web :</strong> HTML, CSS</li>
+                        <li><strong>Data vizualisation :</strong> Excel, Tableau, Power BI</li>
+                        <li><strong>CRM :</strong> Salesforce, Marketing Cloud, HubSpot, Mailchimp</li>
+                        <li><strong>Design:</strong> Photoshop, Canva</li>
+                     </ul>
+                  </td>
+                  <td style="width: 33%;">
+                     <h3 style="text-align: center;">Soft <br>Skills</h3>
+                     <ul style="font-size: 0.9em;">
+                        <li><strong> Data Analyse :</strong> décisions data-driven, KPI framework AAARR</li>
+                        <li><strong> Gestion de projets :</strong> coordination inter-équipes / prestataires (refonte site web, migration outils)</li>
+                        <li><strong> Communication :</strong> aisance orale & rédactionnelle, copywriting</li>
+                        <li><strong> Travail d'équipe</strong> </li>
+                        <li><strong> Agilité :</strong> apprentissage rapide, curiosité, adaptabilité</li>
+
+                     </ul>
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <!-- COMPETENCES - FIN -->
+         <h3 style="padding-left: 5px; padding-top: 30px; padding-bottom: 0px;">expérience professionnelles</h3>
+         <a href="https://www.leaseplan.fr/" target="_blank" style="text-decoration: none; color: inherit; display: inline-block;">
+            <div style="display: flex; align-items: center; margin-bottom: 3px; width:auto; padding-left: 5px;">
+               <img src="nieuw_logo_voor_leaseplan.png" align="left" width="50px" style="margin-right:20px;"/>
+               <h4 align="left">  LeasePlan France (Ayvens)</h4>
+            </div>
+         </a>
+         <table class="nouveau-tableau">
+            <tr>
+               <td style="width: 25%;">
+                  <div class="flex-column-start">
+                     <div style="display: flex; align-items: baseline;">
+                        <h5 style="padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px;">Chef de projet marketing digital<br> [2019-2024]</h5>
+                     </div>
+                  </div>
+               </td>
+               <td>
+                  <div class="flex-column-start">
+                     <div style="display: flex; align-items: baseline;">
+                        <ul style="margin-top: 5px; font-size: 1em; padding-top: 0px;">
+                           <li>Pilotage des leviers d'acquisition pour la génération de leads B2B/B2C</li>
+                           <li>Gestion de projets digitaux : migration CRM Salesforce & Marketing Cloud, refonte site web Front/Back</li>
+                           <li>Elaboration et déploiement de campagnes marketing : dispositif, messages, landing pages</li>
+                           <li>Reporting et analyse de performance : dashboards marketing & commercial</li>
+                           <li>Gestion du budget acquisition (650K €)</li>
+                           <li>Marketing automation pour l'acquisition et la rétention</li>
+                           <li>Gestion de la visibilité du site internet et optimisation de l'expérience client</li>
+                           <li>Formation des équipes aux outils CRM et optimisation des process commerciaux</li>
+
+                        </ul>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+
+         <div class="separator"></div>
+
+
+         <a href="https://www.G7.fr" target="_blank" style="text-decoration: none; color: inherit; display: inline-block;">
+            <div style="display: flex; align-items: center; margin-bottom: 10px; padding-left: 5px;">
+               <img src="footer_logo_g7.svg" align="left" width="50px" style="margin-right:20px;"/>
+               <h4 align="left">  G7</h4>
+            </div>
+         </a>
+         <table class="nouveau-tableau">
+            <tr>
+               <td style="width: 25%;">
+                  <div class="flex-column-start">
+                     <div style="display: flex; align-items: baseline;">
+                        <h5 style="padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px;">Chargée de CRM<br> [2018-2019]</h5>
+                     </div>
+                  </div>
+               </td>
+               <td>
+                  <div class="flex-column-start">
+                     <div style="display: flex; align-items: baseline;">
+                        <ul style="margin-top: 5px; font-size: 1em; padding-top: 0px;">
+                           <li>Analyse, segmentation et ciblage de la BDD clients</li>
+                           <li>Conception et gestion des campagnes CRM : Customer journeys d'acquisition, fidélisation, cross/up sell et rétention</li>
+                           <li>Optimisation des parcours clients B2B et B2C (emails, push transactionnels). Automatisation des workflows</li>
+
+                        </ul>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td style="width: 25%;">
+                  <div class="flex-column-start">
+                     <div style="display: flex; align-items: baseline;">
+                        <h5 style="padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px;">Chef de produit<br> [2016-2018]</h5>
+                     </div>
+                  </div>
+               </td>
+               <td>
+                  <div class="flex-column-start">
+                     <div style="display: flex; align-items: baseline;">
+                        <ul style="margin-top: 5px; font-size: 1em; padding-top: 0px;">
+                           <li>Gestion de projet web - design, UX, contenu, parcours (expression de besoin > recette > MEP)</li>
+                           <li>Analyse des performances et AB testing pour optimisations et évolutions du contenu et du parcours de réservation</li>
+                           <li>Définition et déploiement des points de contact transactionnels et marketing</li>
+                           <li>Management de l'offre, création et diffusion des supports de communication</li>
+                        </ul>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td style="width: 25%;">
+                  <div class="flex-column-start">
+                     <div style="display: flex; align-items: baseline;">
+                        <h5 style="padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px;">Traffic manager<br> [2015-2016]</h5>
+                     </div>
+                  </div>
+               </td>
+               <td>
+                  <div class="flex-column-start">
+                     <div style="display: flex; align-items: baseline;">
+                        <ul style="margin-top: 5px; font-size: 1em; padding-top: 0px;">
+                           <li>Pilotage des campagnes d'acquisition de trafic multicanales : SEA/SEO, affiliation, display, retargeting, email marketing, programmatique, partenariats et réseaux sociaux</li>
+                           <li>Définition et suivi des KPIS de performance (CAC, CPC, CTR...)</li>
+                           <li>AB tests pour optimiser le CRO : contenu d’annonces, landing pages, promotions</li>
+                           <li>Veille sectorielle et analyse du volume et de la qualité du trafic (comportement sur site et points de fuite)</li>
+                        </ul>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="competences-container" style="background-color: #fff; padding-top: 20px;">
+         <h3 style="padding-left: 5px; padding-top: 30px; padding-bottom: 30px; margin-bottom: 0; background-color: #fff;">Expériences associatives & formation</h3>
+      </div>
+      </a>
+      <table class="nouveau-tableau-4">
+         <tr>
+            <td rowspan="2" style="width: 15%;"><strong>Paris en compagnie</strong></td>
+            <td rowspan="2" style="width: 35%;">Accompagnement de seniors isolés
+            </td>
+            <td style="width: 7%;">2014 :</td>
+            <td style="width: 43%;">Neoma Business School - Master en marketing
+               English track
+            </td>
+         </tr>
+         <tr>
+            <td style="width: 7%;">2012 :</td>
+            <td style="width: 43%;">Universidad de los Andes (Chili) - Echange universitaire</td>
+         </tr>
+         <tr>
+            <td rowspan="2"><strong>Handi’namik</strong> (6 mois) <br> E-category manager </td>
+            <td rowspan="2">Organisation d’événements pour sensibiliser au handicap</td>
+            <td style="width: 7%;">2009 :</td>
+            <td style="width: 43%;">Lycée Jeanne d'Albret - Classe préparatoire ECS
+            </td>
+         </tr>
+         <tr>
+            <td style="width: 7%;">2007 :</td>
+            <td style="width: 43%;">Lycée Alain - Baccalauréat S - section européenne
+               Mention TB
+            </td>
+         </tr>
+      </table>
+
+      <div class="competences-container" style="background-color: #fff; padding-top: 30px; padding-bottom: 70px;">
+
+      <div class="competences-container" style="background-color: #b8ebea; padding-top: 1px;">
+        <h3 style="padding-left: 5px; padding-top: 30px; padding-bottom: 30px; margin-bottom: 0;">Intérêts & Langues</h3>
+     </div>
+     </a>
+     <table class="tableau-special">
+        <tr>
+            <td class="fusion" rowspan="2" style="width: 50%; text-align: left;">Voyages (tour d’Amérique centrale & Sud, tour d’Asie), sport (yoga, running), gastronomie
+            </td>
+            <td style="vertical-align: middle; text-align: left;"><img src="27099-FR.jpg" style="width: 50px; vertical-align: middle; margin-right: 5px;">
+                C2 - Maternel</td>
+                <td style="vertical-align: middle; text-align: left;"><img src="18166-EN.jpg" style="width: 50px; vertical-align: middle; margin-right: 5px;">C1 - TOEFL 110/120</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: middle; text-align: left;"><img src="18168-ESP.jpg" style="width: 50px; vertical-align: middle; margin-right: 5px;">C1 - CEN 70/80</td>
+            <td style="vertical-align: middle; text-align: left;"><img src="18170-PT.jpg" style="width: 50px; vertical-align: middle; margin-right: 5px;">A1</td>
+        </tr>
+    </table>
+      </div>
+   </body>
+</html>
